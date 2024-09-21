@@ -18,7 +18,7 @@ a.active hr {
   font-style: normal;
 }
 @media (max-width: 64px) {
-  a.active {
+  a.active hr {
     background-color: black;
     color: white;
   }

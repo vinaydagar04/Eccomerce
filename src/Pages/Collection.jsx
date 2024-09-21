@@ -46,6 +46,14 @@ const Collection = () => {
     setFilterProducts(productsCopy);
   };
 
+  // const sortProduct = () => {
+  //   let fpCopy = filterProducts.slice();
+
+  //   switch(sortType){
+
+  //   }
+  // }
+
   useEffect(() => {
     applyFilter();
   }, [category, subCategory]);
